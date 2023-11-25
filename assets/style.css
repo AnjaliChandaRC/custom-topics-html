@@ -1,5 +1,19 @@
-.cards_bg_parent{
+.cards_bg_parent {
     background-color: aqua;
     height: 300px;
     width: 400px;
+}
+
+.overlay_add {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.overlay_add.show {
+    display: block;
 }
